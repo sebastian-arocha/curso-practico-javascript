@@ -42,7 +42,6 @@ function diametroCirculo(radio) {
 
 //Pi
 const Pi = Math.PI;
-const Piarreglado = console.log("Pi es " + Pi);
 //Math es un objeto para constantes y funciones matemáticas
 //Math funciona como una caja de herramientas
 
