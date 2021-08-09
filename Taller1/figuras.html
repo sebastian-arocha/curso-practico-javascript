@@ -4,10 +4,110 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./figuras.css" />
     <title>Figuras Geométricas</title>
   </head>
   <body>
-    <h1>Figuras Geométricas</h1>
+    <header>
+      <h1>Calculadora de Figuras Geométricas</h1>
+    </header>
+
+    <section>
+      <h2>Calculando el área y perímetro de un cuadrado</h2>
+      <form>
+        <label for="inputCuadrado">
+          <span>Escribe cuanto mide el lado del cuadrado</span>
+          <input
+            id="inputCuadrado"
+            name="inputCuadrado"
+            placeholder="Ingresa un número"
+            required
+            type="number"
+          />
+          <button type="button" onclick="calcularPerimetroCuadrado()">
+            <p>Perímetro</p>
+          </button>
+          <button type="button" onclick="calcularAreaCuadrado()">
+            <p>Área</p>
+          </button>
+        </label>
+      </form>
+    </section>
+
+    <section>
+      <h2>Calculando el área y perímetro de un triángulo</h2>
+      <form>
+        <label for="inputTriangulolado1">
+          <span>¿Cuánto mide el primer lado?</span>
+          <input
+            id="inputTriangulolado1"
+            name="inputTriangulolado1"
+            placeholder="Ingresa un número"
+            required
+            type="number"
+          />
+        </label>
+        <label for="inputTriangulolado2">
+          <span>¿Cuánto mide el segundo lado?</span>
+          <input
+            id="inputTriangulolado2"
+            name="inputTriangulolado2"
+            placeholder="Ingresa un número"
+            required
+            type="number"
+          />
+        </label>
+        <label for="inputTriangulobase">
+          <span>¿Cuánto mide la base?</span>
+          <input
+            id="inputTriangulobase"
+            name="inputTriangulobase"
+            placeholder="Ingresa un número"
+            required
+            type="number"
+          />
+        </label>
+        <label for="inputTrianguloaltura">
+          <span>¿Cuánto es la altura del triángulo?</span>
+          <input
+            id="inputTrianguloaltura"
+            name="inputTrianguloaltura"
+            placeholder="Ingresa un número"
+            required
+            type="number"
+          />
+        </label>
+        <button type="button" onclick="calcularPerimetroTriangulo()">
+          <p>Perímetro</p>
+        </button>
+        <button type="button" onclick="calcularAreaTriangulo()">
+          <p>Área</p>
+        </button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Calculando el área y perímetro de un círculo</h2>
+      <form>
+        <label for="inputCirculoRadio">
+          <span>¿Cuánto mide el radio?</span>
+          <input
+            id="inputCirculoRadio"
+            name="inputCirculoRadio"
+            placeholder="Ingresa un número"
+            required
+            type="number"
+          />
+        </label>
+        <button type="button" onclick="calcularPerimetroCirculo()">
+          <p>Perímetro</p>
+        </button>
+        <button type="button" onclick="calcularAreaCirculo()">
+          <p>Área</p>
+        </button>
+      </form>
+    </section>
+
     <script src="./figuras.js"></script>
   </body>
 </html>
