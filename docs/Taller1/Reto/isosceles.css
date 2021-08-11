@@ -44,3 +44,93 @@ body {
 .header__details > a:hover {
   text-decoration: underline;
 }
+
+.isosceles {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  min-height: calc(100vh - 400px);
+  padding: 60px 30px;
+  justify-content: space-around;
+}
+
+.isosceles__container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid white;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 30px 40px 30px;
+  min-height: 200px;
+}
+
+.isosceles__container > img {
+  height: 120px;
+  width: 170px;
+  padding: 0%;
+  border: 0%;
+  margin: 0%;
+  padding: 0px 0px 20px 35px;
+}
+
+.isosceles__container > h2 {
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+}
+
+.isosceles__container--form {
+  display: flex;
+  flex-direction: column;
+}
+
+.isosceles__container--form > span {
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.input {
+  background-color: transparent; /*fondo transparente*/
+  border-bottom: 2px solid white;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  font-family: "Mulish", sans-serif; /*colocamos la misma fuente*/
+  font-size: 16px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  outline: none; /*Quitamos el borde al hacer click en el input*/
+  padding: 0px 20px;
+}
+
+.button {
+  background-color: #cee3ff;
+  border: none; /*quitamos el borde*/
+  border-radius: 10px;
+  color: #272727;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold; /*añadimos negrita*/
+  height: 50px;
+  letter-spacing: 1px;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+::placeholder {
+  font-size: 20px;
+  color: gray;
+}

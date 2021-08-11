@@ -1,7 +1,9 @@
 function trianguloIsosceles() {
-  const lado1 = Number(prompt("¿Cuánto mide un lado?"));
+  const inputLado1 = document.getElementById("inputlado1");
+  const inputBase = document.getElementById("inputbase");
+  const lado1 = Number(inputLado1.value);
   const lado2 = lado1;
-  const base = Number(prompt("¿Cuánto mide la base?"));
+  const base = Number(inputBase.value);
   const catetobase = (base / 2) ** 2;
   const hipotenusa = lado1 ** 2;
   const altura = Math.sqrt(hipotenusa - catetobase);

@@ -10,6 +10,12 @@
       href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./isosceles.css" />
     <title>Figuras Geométricas</title>
   </head>
@@ -31,8 +37,35 @@
       </div>
     </header>
 
-    <main>
-      <section class="isosceles__container"></section>
+    <main class="isosceles">
+      <section class="isosceles__container">
+        <h2>Triángulo Isósceles</h2>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Socionics_symbol_Ne.svg/600px-Socionics_symbol_Ne.svg.png"
+          alt="isosceles"
+        />
+        <form class="isosceles__container--form">
+          <span>¿Cuánto mide un lado?</span>
+          <input
+            class="input"
+            id="inputlado1"
+            name="inputlado1"
+            placeholder="lado1"
+            type="number"
+          />
+          <span>¿Cuánto mide la base?</span>
+          <input
+            class="input"
+            id="inputbase"
+            name="inputbase"
+            placeholder="base"
+            type="number"
+          />
+          <button type="button" class="button" onclick="trianguloIsosceles()">
+            Calcular altura
+          </button>
+        </form>
+      </section>
     </main>
 
     <script src="./isosceles.js"></script>
