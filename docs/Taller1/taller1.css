@@ -1,0 +1,280 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-image: url(https://images.pexels.com/photos/3745234/pexels-photo-3745234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.header {
+  align-items: center;
+  background-image: url(https://images.pexels.com/photos/3745234/pexels-photo-3745234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+}
+.header__logo {
+  margin-left: 30px;
+  align-items: center;
+  font-family: "Asap Condensed", sans-serif;
+  color: #cee3ff;
+  display: flex;
+  font-size: 18px;
+}
+.header__logo > img {
+  margin-right: 5px;
+  width: 70px;
+  height: 60px;
+}
+.header__title {
+  color: white;
+  font-family: "Asap Condensed", sans-serif;
+  font-size: 18px;
+  margin-left: 70px;
+}
+.header__details {
+  margin-right: 30px;
+}
+.header__details > a {
+  color: #cee3ff;
+  font-size: 18px;
+  font-family: "Asap Condensed", sans-serif;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.header__details > a:hover {
+  text-decoration: underline;
+}
+
+main {
+  position: relative;
+  top: -60px;
+  justify-content: center;
+  height: 550px;
+}
+
+/*Cuadrado*/
+
+.cuadrado__container {
+  color: #272727;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.cuadrado__container > h2 {
+  justify-content: center;
+  margin-bottom: 0%;
+  display: flex;
+  font-size: 25px;
+}
+
+.cuadrado__container > p {
+  position: relative;
+  top: -5px;
+  margin-left: 50px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cuadrado {
+  background-color: rgba(255, 255, 255, 0.9); /*transparencia*/
+  border-radius: 40px; /*redondeamos los bordes*/
+  flex-direction: column;
+  justify-content: center;
+  left: 50px;
+  margin-top: 130px;
+  margin-left: 200px;
+  min-height: 300px; /*altura fija*/
+  padding: 20px 68px 40px;
+  position: relative;
+  width: 150px;
+  top: -15px;
+}
+
+.cuadrado:hover {
+  transform: scale(1.1);
+}
+
+.cuadrado__container--form--items {
+  color: white;
+}
+
+.inputCuadrado {
+  background-color: transparent;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  height: 50px;
+  outline: none;
+  width: 150px;
+}
+
+.button {
+  background-color: #cee3ff;
+  border: none; /*quitamos el borde*/
+  border-radius: 10px;
+  color: #272727;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-weight: bold; /*añadimos negrita*/
+  height: 50px;
+  justify-content: center;
+  letter-spacing: 1px;
+  margin: 10px 0px;
+  width: 150px;
+}
+.button:hover {
+  transform: scale(1.1);
+}
+::placeholder {
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: gray;
+}
+
+/*Triángulo*/
+
+.triangulo {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.9); /*transparencia*/
+  border-radius: 40px; /*redondeamos los bordes*/
+  padding: 20px 68px 40px;
+  margin-top: 20px;
+  margin-left: 100px;
+  min-height: 300px; /*altura fija*/
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 200px;
+  top: -420px;
+  left: 530px;
+}
+.triangulo:hover {
+  transform: scale(1.1);
+}
+.triangulo__container {
+  color: #272727;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.triangulo__container > h2 {
+  justify-content: center;
+  display: flex;
+  font-size: 25px;
+}
+.triangulo__container > p {
+  margin-left: 75px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.triangulo__container--form-items {
+  color: #272727;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+.texto__base {
+  margin-left: 75px;
+  position: relative;
+  top: -5px;
+}
+.base {
+  position: relative;
+  top: -20px;
+}
+.texto__altura {
+  margin-left: 70px;
+  position: relative;
+  top: -5px;
+}
+.altura {
+  position: relative;
+  top: -20px;
+}
+.inputTriangulo {
+  margin-left: 23px;
+  background-color: transparent;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  height: 50px;
+  width: 150px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+  outline: none;
+}
+.lado1lado2 {
+  position: relative;
+  top: -8px;
+}
+
+.botonestriangulo {
+  margin-left: 25px;
+}
+
+/*Circulo*/
+
+.circulo {
+  background-color: rgba(255, 255, 255, 0.9); /*transparencia*/
+  border-radius: 40px; /*redondeamos los bordes*/
+  flex-direction: column;
+  justify-content: center;
+  left: 50px;
+  margin-top: 130px;
+  margin-left: 150px;
+  min-height: 320px; /*altura fija*/
+  padding: 20px 68px 40px;
+  position: relative;
+  width: 150px;
+  top: -1190px;
+  left: 900px;
+}
+
+.circulo:hover {
+  transform: scale(1.1);
+}
+
+.circulo__container {
+  color: #272727;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.circulo__container > h2 {
+  justify-content: center;
+  margin-bottom: 0%;
+  display: flex;
+  font-size: 25px;
+}
+
+.circulo__container > p {
+  margin-left: 45px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.inputCirculo {
+  background-color: transparent;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  height: 50px;
+  outline: none;
+  width: 150px;
+}

@@ -1,0 +1,46 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-image: url(https://images.pexels.com/photos/3745234/pexels-photo-3745234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.header {
+  align-items: center;
+  background-image: url(https://images.pexels.com/photos/3745234/pexels-photo-3745234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+}
+.header__logo {
+  margin-left: 30px;
+  align-items: center;
+  font-family: "Asap Condensed", sans-serif;
+  color: #cee3ff;
+  display: flex;
+  font-size: 18px;
+}
+.header__logo > img {
+  margin-right: 5px;
+  width: 70px;
+  height: 60px;
+}
+.header__title {
+  color: white;
+  font-family: "Asap Condensed", sans-serif;
+  font-size: 18px;
+  margin-left: 70px;
+}
+.header__details {
+  margin-right: 30px;
+}
+.header__details > a {
+  color: #cee3ff;
+  font-size: 18px;
+  font-family: "Asap Condensed", sans-serif;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.header__details > a:hover {
+  text-decoration: underline;
+}

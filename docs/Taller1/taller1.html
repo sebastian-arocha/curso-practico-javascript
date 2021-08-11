@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./taller1.css" />
+    <title>Figuras Geométricas</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <img src="./img/icon.png" alt="icono" class="logo" />
+        <h2>FigCalculator</h2>
+      </div>
+      <div class="header__title">
+        <h1>Calculadora de Figuras Geométricas</h1>
+      </div>
+      <div class="header__details">
+        <a href="../index.html">Inicio</a>
+        <a href="https://www.linkedin.com/in/sebastian-arocha/"
+          >Contacta al creador</a
+        >
+        <a href="./Reto/isosceles.html">Reto</a>
+      </div>
+    </header>
+
+    <main>
+      <div class="cuadrado">
+        <div class="cuadrado__container">
+          <h2>Cuadrado</h2>
+          <p>Lado</p>
+        </div>
+        <form class="cuadrado__container--form">
+          <div class="cuadrado__container--form-items">
+            <label for="inputCuadrado">
+              <input
+                id="inputCuadrado"
+                name="inputCuadrado"
+                placeholder="medida lado"
+                required
+                type="number"
+                class="inputCuadrado"
+              />
+              <button
+                type="button"
+                onclick="calcularPerimetroCuadrado()"
+                class="button"
+              >
+                <p>Perímetro</p>
+              </button>
+              <button
+                type="button"
+                onclick="calcularAreaCuadrado()"
+                class="button"
+              >
+                <p>Área</p>
+              </button>
+            </label>
+          </div>
+        </form>
+      </div>
+
+      <div class="triangulo">
+        <div class="triangulo__container">
+          <h2>Triángulo</h2>
+          <p>Lado</p>
+        </div>
+        <form class="triangulo__container--form">
+          <div class="triangulo__container--form-items">
+            <div class="lado1lado2">
+              <label for="inputTriangulolado1">
+                <input
+                  id="inputTriangulolado1"
+                  name="inputTriangulolado1"
+                  placeholder="medida lado 1"
+                  required
+                  type="number"
+                  class="inputTriangulo"
+                />
+              </label>
+              <label for="inputTriangulolado2">
+                <input
+                  id="inputTriangulolado2"
+                  name="inputTriangulolado2"
+                  placeholder="medida lado 2"
+                  required
+                  type="number"
+                  class="inputTriangulo"
+                />
+              </label>
+            </div>
+            <div class="texto__base">
+              <p>Base</p>
+            </div>
+            <div class="base">
+              <label for="inputTriangulobase">
+                <input
+                  id="inputTriangulobase"
+                  name="inputTriangulobase"
+                  placeholder="medida base"
+                  required
+                  type="number"
+                  class="inputTriangulo"
+                />
+              </label>
+            </div>
+            <div class="texto__altura">
+              <p>Altura</p>
+            </div>
+            <div class="altura">
+              <label for="inputTrianguloaltura">
+                <input
+                  id="inputTrianguloaltura"
+                  name="inputTrianguloaltura"
+                  placeholder="medida altura"
+                  required
+                  type="number"
+                  class="inputTriangulo"
+                />
+              </label>
+            </div>
+            <div class="botonestriangulo">
+              <button
+                type="button"
+                onclick="calcularPerimetroTriangulo()"
+                class="button"
+              >
+                <p>Perímetro</p>
+              </button>
+              <button
+                type="button"
+                onclick="calcularAreaTriangulo()"
+                class="button"
+              >
+                <p>Área</p>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="circulo">
+        <div class="circulo__container">
+          <h2>Círculo</h2>
+          <p>Radio</p>
+        </div>
+        <form class="circulo__container--form">
+          <div class="circulo__container--form-items">
+            <label for="inputCirculoRadio">
+              <input
+                id="inputCirculoRadio"
+                name="inputCirculoRadio"
+                placeholder="medida radio"
+                required
+                type="number"
+                class="inputCirculo"
+              />
+            </label>
+            <button
+              type="button"
+              onclick="calcularPerimetroCirculo()"
+              class="button"
+            >
+              <p>Perímetro</p>
+            </button>
+            <button
+              type="button"
+              onclick="calcularAreaCirculo()"
+              class="button"
+            >
+              <p>Área</p>
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <script src="./taller1.js"></script>
+  </body>
+</html>

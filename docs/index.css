@@ -1,0 +1,39 @@
+body {
+  background-image: url(https://wallpapercave.com/wp/wp3493600.jpg);
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  height: 70px;
+  justify-content: center;
+}
+.header__title {
+  color: yellow;
+  font-family: "Asap Condensed", sans-serif;
+  font-size: 18px;
+}
+
+.talleres {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.talleres > a {
+  color: white;
+  font-family: "Asap Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+
+.talleres > a:hover {
+  color: yellow;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  text-decoration: underline;
+  transform: scale(1.3);
+}
