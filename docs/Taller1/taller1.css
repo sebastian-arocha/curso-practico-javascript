@@ -5,44 +5,47 @@ body {
 }
 
 .header {
-  align-items: center;
+  /*encabezado de nuestra pagina*/
+  align-items: center; /*alineamos los items al centro*/
   background-image: url(https://images.pexels.com/photos/3745234/pexels-photo-3745234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-  display: flex;
-  height: 70px;
-  justify-content: space-between;
+  display: flex; /*usamos flexbox*/
+  height: 70px; /*cambiamos la altura del header*/
+  justify-content: space-between; /*los elementos tendran espacio entre si*/
 }
 .header__logo {
-  margin-left: 30px;
-  align-items: center;
-  font-family: "Asap Condensed", sans-serif;
-  color: #cee3ff;
+  /*contenedor del logo de figcalculator*/
+  margin-left: 30px; /*le colocamos un margen a la izquierda*/
+  align-items: center; /*alineamos los items al centro*/
+  font-family: "Asap Condensed", sans-serif; /*cambiamos la fuente*/
+  color: #cee3ff; /*le damos color a la fuente*/
   display: flex;
   font-size: 18px;
 }
 .header__logo > img {
-  margin-right: 5px;
-  width: 70px;
-  height: 60px;
+  /*imagen de nuestro logo*/
+  margin-right: 5px; /*margen a la derecha*/
+  width: 70px; /*ancho del logo*/
+  height: 60px; /*altura del logo*/
 }
 .header__title {
-  color: white;
+  color: white; /*color de titulo blanco*/
   font-family: "Asap Condensed", sans-serif;
-  font-size: 18px;
-  margin-left: 70px;
+  font-size: 18px; /*cambiamos el tamaño de la fuente*/
+  margin-left: 70px; /*margen a la derecha*/
 }
 .header__details {
-  margin-right: 30px;
+  margin-right: 30px; /*le damos margen a la derecha*/
 }
 .header__details > a {
   color: #cee3ff;
-  font-size: 18px;
+  font-size: 18px; /*tamaño de fuente*/
   font-family: "Asap Condensed", sans-serif;
-  margin-right: 15px;
-  text-decoration: none;
+  margin-right: 15px; /*margen a la derecha*/
+  text-decoration: none; /*le quitamos la linea por defecto*/
 }
 
 .header__details > a:hover {
-  text-decoration: underline;
+  text-decoration: underline; /*al hacer hover sale un subrayado*/
 }
 
 main {
@@ -50,7 +53,6 @@ main {
   margin-left: 40px;
   align-items: center;
   display: flex;
-  flex-direction: row;
   justify-content: center;
 }
 
@@ -59,66 +61,68 @@ main {
 .figura {
   background-color: rgba(255, 255, 255, 0.9);
   border: 2px solid white;
-  border-radius: 40px;
+  border-radius: 40px; /*redondeamos el borde*/
   min-height: 250px; /*altura fija*/
-  margin-right: 50px;
+  margin-right: 50px; /*margen a la derecha*/
   padding: 30px 68px 40px;
-  width: 150px;
+  width: 150px; /*ancho*/
 }
 
 .figura__container > h2 {
-  align-items: center;
+  align-items: center; /*centramos verticalmente*/
   font-family: "Roboto", sans-serif;
-  font-weight: bold;
+  font-weight: bold; /*negrita*/
   display: flex;
-  justify-content: center;
+  justify-content: center; /*centramos el h2*/
 }
 
 .figura__container--form > span {
-  align-items: center;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  letter-spacing: 1px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  align-items: center; /*alineamos los items verticalmente*/
+  font-family: "Roboto", sans-serif; /*cambiamos la tipografía*/
+  font-weight: bold; /*hacemos la fuente gruesa*/
+  display: flex; /*usamos flexbox*/
+  justify-content: center; /*alineamos el contenido al centro*/
+  letter-spacing: 1px; /*le damos espacio entre letras*/
+  margin-top: 10px; /*le damos margen a la parte superior*/
+  margin-bottom: 10px; /*margen a la parte inferior*/
 }
 
 .input {
-  background-color: transparent;
-  border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+  background-color: transparent; /*el fondo del input es transparente*/
+  border-bottom: 4px solid rgba(0, 0, 0, 0.5); /*le damos un color a la linea del borde*/
   border-left: 0px;
   border-right: 0px;
   border-top: 0px;
   color: black;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 20px;
-  height: 50px;
-  outline: none;
-  width: 150px;
+  font-size: 20px; /*cambiamos el tamaño de la fuente*/
+  height: 50px; /*la altura del input*/
+  outline: none; /*quitamos el cuadro azul que aparece al darle click */
+  width: 150px; /*configuramos el ancho del input*/
 }
 
 .button {
-  background-color: #cee3ff;
+  background-color: #cee3ff; /*cambiamos el color de fondo*/
   border: none; /*quitamos el borde*/
-  border-radius: 10px;
+  border-radius: 10px; /*redondeamos el borde*/
   color: #272727;
-  cursor: pointer;
+  cursor: pointer; /*al pasar el cursor por el botón el puntero cambia a una mano*/
   display: flex;
   font-size: 16px;
   font-weight: bold; /*añadimos negrita*/
-  height: 50px;
+  height: 50px; /*altura del boton*/
   justify-content: center;
-  letter-spacing: 1px;
-  margin: 10px 0px;
-  width: 150px;
+  letter-spacing: 1px; /*le damos espacio entre las letras*/
+  margin: 10px 0px; /*configuramos el margen*/
+  width: 150px; /*de que ancho va a ser el boton*/
 }
 .button:hover {
   transform: scale(1.1);
+  /*Al pasar el puntero por el botón se agranda*/
 }
 ::placeholder {
+  /*Cambiamos los estilos del placeholder de los inputs*/
   font-size: 20px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;

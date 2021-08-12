@@ -9,7 +9,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@700&display=swap"
       rel="stylesheet"
-    />
+    /> <!--Añadimos fuentes de Google Fonts-->
     <link rel="stylesheet" href="./taller1.css" />
     <title>Figuras Geométricas</title>
   </head>
@@ -32,13 +32,15 @@
     </header>
 
     <main>
-      <div class="figura">
-        <div class="figura__container">
+      <!--Sección del cuadrado-->
+      <section class="figura">
+        <section class="figura__container">
           <h2>Cuadrado</h2>
-        </div>
         <form class="figura__container--form">
+          <!--Formulario en donde le pide al usuario las medidas de los lados-->
           <span>Lado</span>
           <label for="inputCuadrado">
+            <!--Input donde el usuario registra las medidas de los lados-->
             <input
               id="inputCuadrado"
               name="inputCuadrado"
@@ -46,6 +48,7 @@
               type="number"
               class="input"
             />
+            <!--Botón para calcular el perímetro que se conecta con JS-->
             <button
               type="button"
               onclick="calcularPerimetroCuadrado()"
@@ -53,23 +56,27 @@
             >
               <p>Perímetro</p>
             </button>
+            <!--Botón para calcular el area que se conecta con JS-->
             <button
               type="button"
               onclick="calcularAreaCuadrado()"
               class="button"
-            >
               <p>Área</p>
             </button>
           </label>
         </form>
-      </div>
-      <div class="figura">
-        <div class="figura__container">
+        </section>
+      </section> <!--Fin de la sección del cuadrado-->
+
+      <!--Sección del triángulo-->
+      <section class="figura">
+        <section class="figura__container">
           <h2>Triángulo</h2>
-        </div>
         <form class="figura__container--form">
+          <!--Formulario en donde le pide al usuario las medidas de los lados, la base y la altura-->
           <span>Lado</span>
           <label for="inputTriangulolado1">
+            <!--Input donde el usuario registra las medidas de los lados-->
             <input
               id="inputTriangulolado1"
               name="inputTriangulolado1"
@@ -79,6 +86,7 @@
               class="input"
             />
           </label>
+          <!--Input donde el usuario registra las medidas de los lados-->
           <label for="inputTriangulolado2">
             <input
               id="inputTriangulolado2"
@@ -89,6 +97,7 @@
             />
           </label>
           <span>Base</span>
+          <!--Input donde el usuario registra las medida de la base-->
           <label for="inputTriangulobase">
             <input
               id="inputTriangulobase"
@@ -99,6 +108,7 @@
             />
           </label>
           <span>Altura</span>
+          <!--Input donde el usuario registra las medidas de la base-->
           <label for="inputTrianguloaltura">
             <input
               id="inputTrianguloaltura"
@@ -108,6 +118,7 @@
               class="input"
             />
           </label>
+          <!--Botón para calcular el perímetro que se conecta con JS-->
           <button
             type="button"
             onclick="calcularPerimetroTriangulo()"
@@ -115,6 +126,7 @@
           >
             <p>Perímetro</p>
           </button>
+          <!--Botón para calcular el area que se conecta con JS-->
           <button
             type="button"
             onclick="calcularAreaTriangulo()"
@@ -123,15 +135,18 @@
             <p>Área</p>
           </button>
         </form>
-      </div>
+        </section>
+      </section> <!--Fin de sección del triángulo-->
 
-      <div class="figura">
-        <div class="figura__container">
+      <!--Sección del círculo-->
+      <section class="figura">
+        <section class="figura__container">
           <h2>Círculo</h2>
-        </div>
         <form class="figura__container--form">
+          <!--Formulario en donde le pide al usuario la medida del radio-->
           <span>Radio</span>
           <label for="inputCirculoRadio">
+            <!--Input donde el usuario registra la medida del radio-->
             <input
               id="inputCirculoRadio"
               name="inputCirculoRadio"
@@ -140,6 +155,7 @@
               class="input"
             />
           </label>
+          <!--Botón para calcular el perímetro que se conecta con JS-->
           <button
             type="button"
             onclick="calcularPerimetroCirculo()"
@@ -147,11 +163,14 @@
           >
             <p>Perímetro</p>
           </button>
+          <!--Botón para calcular área que se conecta con JS-->
           <button type="button" onclick="calcularAreaCirculo()" class="button">
             <p>Área</p>
           </button>
         </form>
-      </div>
+      </section>
+      </section> <!--Fin de la sección del círculo-->
+
     </main>
     <script src="./taller1.js"></script>
   </body>
