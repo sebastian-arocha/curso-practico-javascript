@@ -103,6 +103,7 @@ main {
 }
 
 .button {
+  align-items: center;
   background-color: #cee3ff; /*cambiamos el color de fondo*/
   border: none; /*quitamos el borde*/
   border-radius: 10px; /*redondeamos el borde*/
