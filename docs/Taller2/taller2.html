@@ -4,13 +4,64 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Taller 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./taller2.css" />
+    <title>Taller 2</title>
   </head>
   <body>
-    <header>
-      <h1>Porcentajes y descuentos</h1>
+    <header class="header">
+      <div class="header__logo">
+        <img src="https://img.icons8.com/color/48/000000/price-tag--v1.png" />
+        <h2>PriceCalculator</h2>
+      </div>
+      <div class="header__title">
+        <h1>Precios, porcentajes y descuentos</h1>
+      </div>
+      <div class="header__details">
+        <a href="../index.html">Inicio</a>
+        <a href="https://www.linkedin.com/in/sebastian-arocha/"
+          >Contacta al creador</a
+        >
+        <a href="../Taller1/taller1.html">Taller n° 1</a>
+      </div>
     </header>
+
+    <main class="contenedor">
+      <section class="contenedor__title">
+        <h2>Precio con descuento</h2>
+        <form class="contenedor__form">
+          <label>Escribe el precio original de tu producto</label>
+          <input
+            class="input"
+            id="inputPrecio"
+            name="inputPrecio"
+            placeholder="Ingresa el precio del producto"
+            type="number"
+          />
+          <label>¿Cuánto descuento tiene?</label>
+          <input
+            class="input"
+            id="inputDescuento"
+            name="inputDescuento"
+            placeholder="Escribe el descuento"
+            type="number"
+          />
+          <button type="button" class="button" onclick="precioFinal()">
+            Calcular precio final
+          </button>
+        </form>
+        <p>Resultado:</p>
+        <div class="contenedor__result">
+          <p id="resultado"></p>
+        </div>
+      </section>
+    </main>
+
     <script src="./taller2.js"></script>
   </body>
 </html>

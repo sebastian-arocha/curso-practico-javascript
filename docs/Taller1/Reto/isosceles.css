@@ -2,11 +2,11 @@ body {
   margin: 0%;
   padding: 0%;
   background-image: url(https://images.pexels.com/photos/3745234/pexels-photo-3745234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
 }
 
 .header {
   align-items: center;
-  background-image: url(https://images.pexels.com/photos/3745234/pexels-photo-3745234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   display: flex;
   height: 70px;
   justify-content: space-between;
