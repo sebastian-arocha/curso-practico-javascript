@@ -26,7 +26,7 @@ body {
   color: white;
   font-family: "Asap Condensed", sans-serif;
   font-size: 18px;
-  margin-left: 102px;
+  margin-left: 70px;
 }
 .header__details {
   margin-right: 30px;
@@ -120,6 +120,21 @@ body {
   height: 100px;
 }
 .input {
+  background-color: transparent;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  font-family: "Roboto", sans-serif; /*colocamos la misma fuente*/
+  font-size: 16px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  outline: none; /*Quitamos el borde al hacer click en el input*/
+  padding: 0px 20px;
+}
+
+.selector {
   background-color: transparent;
   border-bottom: 4px solid rgba(0, 0, 0, 0.5);
   border-left: 0px;

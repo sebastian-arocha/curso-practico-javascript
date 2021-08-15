@@ -31,7 +31,7 @@ body {
   color: white; /*color de titulo blanco*/
   font-family: "Asap Condensed", sans-serif;
   font-size: 18px; /*cambiamos el tamaño de la fuente*/
-  margin-left: 70px; /*margen a la derecha*/
+  margin-left: 130px; /*margen a la derecha*/
 }
 .header__details {
   margin-right: 30px; /*le damos margen a la derecha*/

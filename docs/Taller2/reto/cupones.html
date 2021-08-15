@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./taller2.css" />
+    <link rel="stylesheet" href="./cupones.css" />
     <title>Taller 2</title>
   </head>
   <body>
@@ -23,17 +23,17 @@
         <h1>Precios, porcentajes y descuentos</h1>
       </div>
       <div class="header__details">
-        <a href="../index.html">Inicio</a>
+        <a href="../../index.html">Inicio</a>
         <a href="https://www.linkedin.com/in/sebastian-arocha/"
           >Contacta al creador</a
         >
-        <a href="./reto/cupones.html">Reto Taller n°2</a>
+        <a href="../taller2.html">Taller n° 2</a>
       </div>
     </header>
 
     <main class="contenedor">
       <section class="contenedor__title">
-        <h2>Precio con descuento</h2>
+        <h2>Descuento con cupones</h2>
         <form class="contenedor__form">
           <label>Escribe el precio original de tu producto</label>
           <input
@@ -43,14 +43,13 @@
             placeholder="Ingresa el precio del producto"
             type="number"
           />
-          <label>¿Cuánto descuento tiene?</label>
-          <input
-            class="input"
-            id="inputDescuento"
-            name="inputDescuento"
-            placeholder="Escribe el descuento"
-            type="number"
-          />
+          <label>Escoge tu cupón</label>
+          <select id="inputCupon" class="selector">
+            <option>Selecciona un cupón...</option>
+            <option value="30">Cupón Developer *30% desc*</option>
+            <option value="50">Cupón JavaScript *50% desc*</option>
+            <option value="70">Cupón Platzi *70% desc*</option>
+          </select>
           <button type="button" class="button" onclick="precioFinal()">
             Calcular precio final
           </button>
@@ -62,6 +61,6 @@
       </section>
     </main>
 
-    <script src="./taller2.js"></script>
+    <script src="./cupones.js"></script>
   </body>
 </html>
