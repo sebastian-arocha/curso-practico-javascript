@@ -46,9 +46,15 @@
           <label>Escoge tu cupón</label>
           <select id="inputCupon" class="selector">
             <option>Selecciona un cupón...</option>
-            <option value="30">Cupón Developer *30% desc*</option>
-            <option value="50">Cupón JavaScript *50% desc*</option>
-            <option value="70">Cupón Platzi *70% desc*</option>
+            <option value="30" id="cupon_dev">
+              Cupón Developer *30% desc*
+            </option>
+            <option value="50" id="cupon_js">
+              Cupón JavaScript *50% desc*
+            </option>
+            <option value="70" id="cupon_platzi">
+              Cupón Platzi *70% desc*
+            </option>
           </select>
           <button type="button" class="button" onclick="precioFinal()">
             Calcular precio final
