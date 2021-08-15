@@ -109,7 +109,7 @@ body {
   height: 30px;
   margin-top: 10px;
   margin-bottom: 30px;
-  outline: none; /*Quitamos el borde al hacer click en el input*/
+  outline: none; /*Quitamos el borde al hacer click del input*/
   padding: 0px 20px;
 }
 
