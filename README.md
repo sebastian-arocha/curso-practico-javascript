@@ -15,3 +15,10 @@
 - 2: Implementar fórmulas en JS que hagan estos cálculos con precios fijos
 - 3: Crear funciones que ejecuten el paso 2 con precios que varien
 - 4: Interactuar con JavaScript desde HTML
+
+## Taller #3: promedio, mediana y moda
+
+- 1: Definir las fórmulas de como se calcula el promedio, mediana y moda
+- 2: Implementar fórmulas en JS que hagan estos cálculos
+- 3: Crear funciones que simplifiquen la tarea
+- 4: Interactuar con JavaScript desde HTML

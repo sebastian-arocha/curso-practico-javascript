@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Promedio</title>
+    <link rel="stylesheet" href="./promedio.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <img src="https://img.icons8.com/color/48/000000/calculator--v1.png" />
+        <h2>MediaAritmetica</h2>
+      </div>
+      <div class="header__title">
+        <h1>Promedio, moda y mediana</h1>
+      </div>
+      <div class="header__details">
+        <a href="../index.html">Inicio</a>
+        <a href="https://www.linkedin.com/in/sebastian-arocha/"
+          >Contacta al creador</a
+        >
+        <a href="#">Mediana</a>
+      </div>
+    </header>
+
+    <main class="contenedor">
+      <section class="contenedor__title">
+        <h2>Promedio</h2>
+        <form class="contenedor__form">
+          <label
+            >Ingresa los numeros a calcular promedio, <br />para añadir otro
+            número limpia la caja, <br />
+            escribe el nuevo número que quieres
+            <br />
+            y dale al botón enviar número a la lista
+          </label>
+          <input
+            class="input"
+            id="inputNumero"
+            name="inputNumero"
+            placeholder="Ingresa un número"
+            type="number"
+          />
+          <button type="button" class="button" onclick="añadirArray()">
+            Enviar numero a la lista
+          </button>
+
+          <div class="contenedor__result">
+            <p id="resultado"></p>
+          </div>
+          <button type="button" class="button" onclick="calcularPromedio()">
+            Calcular promedio
+          </button>
+          <label>Resultado:</label>
+          <div class="contenedor__promedio">
+            <p id="resultadoPromedio"></p>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <script src="./promedio.js"></script>
+  </body>
+</html>

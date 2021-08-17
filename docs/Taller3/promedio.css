@@ -1,0 +1,172 @@
+body {
+  background-image: url(https://asociacionpalco.org/wp-content/uploads/2017/02/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
+  background-size: cover;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+}
+.header__logo {
+  margin-left: 30px;
+  align-items: center;
+  font-family: "Asap Condensed", sans-serif;
+  color: white;
+  display: flex;
+  font-size: 18px;
+}
+.header__logo > img {
+  margin-right: 5px;
+  width: 60px;
+  height: 60px;
+}
+.header__title {
+  color: white;
+  font-family: "Asap Condensed", sans-serif;
+  font-size: 18px;
+  margin-left: 50px;
+}
+.header__details {
+  margin-right: 30px;
+}
+.header__details > a {
+  color: white;
+  font-size: 18px;
+  font-family: "Asap Condensed", sans-serif;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.header__details > a:hover {
+  text-decoration: underline;
+}
+
+.contenedor {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  min-height: calc(100vh - 400px);
+  padding: 30px 30px;
+  justify-content: space-around;
+}
+
+.contenedor__title {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px solid white;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 40px 30px;
+  width: 350px;
+  min-height: 200px;
+}
+
+.contenedor__title > img {
+  height: 120px;
+  width: 170px;
+  padding: 0%;
+  border: 0%;
+  margin: 0%;
+  padding: 0px 0px 20px 35px;
+}
+
+.contenedor__title > h2 {
+  text-align: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+}
+
+.contenedor__title > p {
+  margin-top: 20px;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  letter-spacing: 1px;
+  margin-bottom: -5px;
+}
+
+.contenedor__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor__form > label {
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contenedor__result {
+  text-align: center;
+  align-items: center;
+  border-radius: 25px;
+  background-color: rgba(240, 211, 211, 0.1);
+  border: 2px solid #2a2a2a;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding: 20px;
+  height: 100px;
+}
+
+.contenedor__promedio {
+  text-align: center;
+  align-items: center;
+  border-radius: 25px;
+  background-color: rgba(240, 211, 211, 0.1);
+  border: 2px solid #2a2a2a;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  padding: 20px;
+  height: 40px;
+}
+.input {
+  background-color: transparent;
+  border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  font-family: "Roboto", sans-serif; /*colocamos la misma fuente*/
+  font-size: 16px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  outline: none; /*Quitamos el borde al hacer click en el input*/
+  padding: 0px 20px;
+}
+
+.button {
+  background-color: #c23131;
+  border: none; /*quitamos el borde*/
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold; /*añadimos negrita*/
+  height: 50px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+::placeholder {
+  font-size: 20px;
+  color: gray;
+}
