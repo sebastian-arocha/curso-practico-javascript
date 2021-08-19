@@ -10,14 +10,16 @@
       href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@700&display=swap"
       rel="stylesheet"
     />
-    <title>Promedio</title>
-    <link rel="stylesheet" href="./promedio.css" />
+    <title>Taller</title>
+    <link rel="stylesheet" href="./taller3.css" />
   </head>
   <body>
     <header class="header">
       <div class="header__logo">
-        <img src="https://img.icons8.com/color/48/000000/calculator--v1.png" />
-        <h2>MediaAritmetica</h2>
+        <a href="../index.html"
+          ><img src="https://img.icons8.com/color/48/000000/calculator--v1.png"
+        /></a>
+        <a href="../index.html">JSCalculator</a>
       </div>
       <div class="header__title">
         <h1>Promedio, moda y mediana</h1>
@@ -27,7 +29,7 @@
         <a href="https://www.linkedin.com/in/sebastian-arocha/"
           >Contacta al creador</a
         >
-        <a href="./mediana.html">Mediana</a>
+        <a href="#">Fin</a>
       </div>
     </header>
 
@@ -35,12 +37,10 @@
       <section class="contenedor__title">
         <h2>Promedio</h2>
         <form class="contenedor__form">
-          <label
-            >Ingresa los numeros a calcular promedio, <br />para añadir otro
-            número limpia la caja, <br />
-            escribe el nuevo número que quieres
-            <br />
-            y dale al botón enviar número a la lista
+          <label>
+            Ingresa los numeros a calcular promedio, para añadir otro número
+            limpia la caja, escribe el nuevo número que quieres y dale al botón
+            enviar número a la lista
           </label>
           <input
             class="input"
@@ -65,8 +65,39 @@
           </div>
         </form>
       </section>
+      <section class="contenedor__title">
+        <h2>Mediana</h2>
+        <form class="contenedor__form">
+          <label>
+            Ingresa los numeros a calcular mediana, para añadir otro número
+            limpia la caja, escribe el nuevo número que quieres y dale al botón
+            enviar número a la lista
+          </label>
+          <input
+            class="input"
+            id="inputNumeroMediana"
+            name="inputNumeroMediana"
+            placeholder="Ingresa un número"
+            type="number"
+          />
+          <button type="button" class="button" onclick="añadirArrayMediana()">
+            Enviar numero a la lista
+          </button>
+
+          <div class="contenedor__result">
+            <p id="resultadoListaMedianaHTML"></p>
+          </div>
+          <button type="button" class="button" onclick="calcularMediana()">
+            Calcular mediana
+          </button>
+          <label>Resultado:</label>
+          <div class="contenedor__promedio">
+            <p id="outputMediana"></p>
+          </div>
+        </form>
+      </section>
     </main>
 
-    <script src="./promedio.js"></script>
+    <script src="./taller3.js"></script>
   </body>
 </html>

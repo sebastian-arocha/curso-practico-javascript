@@ -13,19 +13,22 @@ body {
   justify-content: space-between; /*los elementos tendran espacio entre si*/
 }
 .header__logo {
-  /*contenedor del logo de figcalculator*/
-  margin-left: 30px; /*le colocamos un margen a la izquierda*/
-  align-items: center; /*alineamos los items al centro*/
-  font-family: "Asap Condensed", sans-serif; /*cambiamos la fuente*/
-  color: #cee3ff; /*le damos color a la fuente*/
+  cursor: pointer;
+  margin-left: 30px;
+  align-items: center;
   display: flex;
-  font-size: 18px;
 }
-.header__logo > img {
-  /*imagen de nuestro logo*/
-  margin-right: 5px; /*margen a la derecha*/
-  width: 70px; /*ancho del logo*/
-  height: 60px; /*altura del logo*/
+.header__logo > a {
+  text-decoration: none;
+  font-family: "Asap Condensed", sans-serif;
+  color: #cee3ff;
+  font-size: 32px;
+}
+.header__logo > a > img {
+  margin-top: 6px;
+  margin-right: 5px;
+  width: 60px;
+  height: 60px;
 }
 .header__title {
   color: white; /*color de titulo blanco*/

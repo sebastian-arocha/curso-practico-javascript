@@ -10,14 +10,19 @@ body {
   justify-content: space-between;
 }
 .header__logo {
+  cursor: pointer;
   margin-left: 30px;
   align-items: center;
+  display: flex;
+}
+.header__logo > a {
+  text-decoration: none;
   font-family: "Asap Condensed", sans-serif;
   color: white;
-  display: flex;
-  font-size: 18px;
+  font-size: 32px;
 }
-.header__logo > img {
+.header__logo > a > img {
+  margin-top: 6px;
   margin-right: 5px;
   width: 60px;
   height: 60px;
@@ -58,7 +63,7 @@ body {
   border-radius: 40px;
   display: flex;
   flex-direction: column;
-  padding: 30px 40px 30px;
+  padding: 10px 40px 20px;
   width: 350px;
   min-height: 200px;
 }
@@ -80,6 +85,7 @@ body {
   display: flex;
   justify-content: center;
   letter-spacing: 1px;
+  margin-bottom: 10px;
 }
 
 .contenedor__title > p {
@@ -98,13 +104,14 @@ body {
 }
 
 .contenedor__form > label {
+  text-align: justify;
   align-items: center;
   font-family: "Roboto", sans-serif;
   display: flex;
   justify-content: center;
   letter-spacing: 1px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .contenedor__result {
