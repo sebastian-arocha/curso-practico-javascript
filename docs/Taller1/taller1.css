@@ -65,7 +65,7 @@ main {
   background-color: rgba(255, 255, 255, 0.9);
   border: 2px solid white;
   border-radius: 40px; /*redondeamos el borde*/
-  min-height: 250px; /*altura fija*/
+  min-height: 300px; /*altura fija*/
   margin-right: 50px; /*margen a la derecha*/
   padding: 30px 68px 40px;
   width: 150px; /*ancho*/

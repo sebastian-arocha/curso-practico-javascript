@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@700&display=swap"
       rel="stylesheet"
     />
-    <title>Taller</title>
+    <title>Taller 3</title>
     <link rel="stylesheet" href="./taller3.css" />
   </head>
   <body>
@@ -37,6 +37,7 @@
       <section class="contenedor__title">
         <h2>Promedio</h2>
         <form class="contenedor__form">
+          <h3>(Suma de los numeros entre la cantidad total)</h3>
           <label>
             Ingresa los numeros a calcular promedio, para añadir otro número
             limpia la caja, escribe el nuevo número que quieres y dale al botón
@@ -65,9 +66,44 @@
           </div>
         </form>
       </section>
+
+      <section class="contenedor__title">
+        <h2>Moda</h2>
+        <form class="contenedor__form">
+          <h3>(Número que más se repite en la lista)</h3>
+          <label>
+            Ingresa los numeros donde se sacará la moda, para añadir otro número
+            limpia la caja, escribe el nuevo número que quieres y dale al botón
+            enviar número a la lista
+          </label>
+          <input
+            class="input"
+            id="inputNumeroModa"
+            name="inputNumeroModa"
+            placeholder="Ingresa un número"
+            type="number"
+          />
+          <button type="button" class="button" onclick="añadirArrayModa()">
+            Enviar numero a la lista
+          </button>
+
+          <div class="contenedor__result">
+            <p id="resultadoListaModaHTML"></p>
+          </div>
+          <button type="button" class="button" onclick="calcularModa()">
+            Calcular moda
+          </button>
+          <label>Resultado:</label>
+          <div class="contenedor__promedio">
+            <p id="outputModa"></p>
+          </div>
+        </form>
+      </section>
+
       <section class="contenedor__title">
         <h2>Mediana</h2>
         <form class="contenedor__form">
+          <h3>(Número que está en la mitad de la lista)</h3>
           <label>
             Ingresa los numeros a calcular mediana, para añadir otro número
             limpia la caja, escribe el nuevo número que quieres y dale al botón
