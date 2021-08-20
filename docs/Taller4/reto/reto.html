@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./reto.css" />
+    <title>Reto Taller 4</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <a href="/docs/index.html"
+          ><img src="https://img.icons8.com/color/48/000000/calculator--v1.png"
+        /></a>
+        <a href="/docs/index.html">JSCalculator</a>
+      </div>
+      <div class="header__title">
+        <h1>Análisis salarial</h1>
+      </div>
+      <div class="header__details">
+        <a href="/docs/index.html">Inicio</a>
+        <a href="https://www.linkedin.com/in/sebastian-arocha/"
+          >Contacta al creador</a
+        >
+        <a href="../../Taller3/taller3.html">Taller 3</a>
+      </div>
+    </header>
+    <aside></aside>
+    <main class="contenedor">
+      <section class="contenedor__title">
+        <h2>Capacidad de ahorro</h2>
+        <form class="contenedor__form">
+          <h3>(Calcula tus ahorros a lo largo del tiempo)</h3>
+          <label>¿Cuál es tu nombre?</label>
+          <input
+            id="inputNombre"
+            class="input"
+            name="inputNombre"
+            placeholder="(Ej: Sebastian)"
+            type="text"
+          />
+          <label>¿Cuánto ganas al mes? (Aproximado en $)</label>
+          <input
+            id="inputSueldo"
+            class="input"
+            name="inputSueldo"
+            placeholder="(Ej: 4000)"
+            type="number"
+          />
+          <label>¿Que % de tu sueldo quieres ahorrar?</label>
+          <input
+            id="inputPorcentaje"
+            class="input"
+            name="inputPorcentaje"
+            placeholder="(Ej: 50)"
+            type="number"
+          />
+          <label>¿Cuántos años vas a ahorrar?</label>
+          <input
+            id="inputTiempo"
+            class="input"
+            name="inputTiempo"
+            placeholder="(Ej: 5)"
+            type="number"
+          />
+          <button type="button" class="button" onclick="calcularAhorro()">
+            Calcular ahorro
+          </button>
+        </form>
+      </section>
+      <section class="contenedor__title">
+        <h2>Resultado de tu ahorro</h2>
+        <div class="contenedor__result">
+          <p id="resultado"></p>
+          <h2 id="resultadodolares"></h2>
+        </div>
+      </section>
+    </main>
+    <script src="./reto.js"></script>
+  </body>
+</html>

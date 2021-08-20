@@ -20,4 +20,3 @@ personasVenezuela.push({ nombre: "Carolina", sueldo: 40 });
 personasVenezuela.push({ nombre: "Pedro", sueldo: 120 });
 personasVenezuela.push({ nombre: "Carlos", sueldo: 160 });
 personasVenezuela.push({ nombre: "Felix", sueldo: 80 });
-personasVenezuela.push({ nombre: "Carmen", sueldo: 50 });
