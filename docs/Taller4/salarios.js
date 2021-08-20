@@ -1,0 +1,23 @@
+const personasVenezuela = [];
+
+personasVenezuela.push({ nombre: "Andrea", sueldo: 40 });
+personasVenezuela.push({ nombre: "Luis", sueldo: 250 });
+personasVenezuela.push({ nombre: "Johnny", sueldo: 60 });
+personasVenezuela.push({ nombre: "Valentina", sueldo: 40 });
+personasVenezuela.push({ nombre: "Alejandra", sueldo: 50 });
+personasVenezuela.push({ nombre: "Alexander", sueldo: 120 });
+personasVenezuela.push({ nombre: "Christoff", sueldo: 600 });
+personasVenezuela.push({ nombre: "Kathy", sueldo: 480 });
+personasVenezuela.push({ nombre: "Veronica", sueldo: 300 });
+personasVenezuela.push({ nombre: "Julio", sueldo: 70 });
+personasVenezuela.push({ nombre: "Daniela", sueldo: 100 });
+personasVenezuela.push({ nombre: "John", sueldo: 120 });
+personasVenezuela.push({ nombre: "Santiago", sueldo: 250 });
+personasVenezuela.push({ nombre: "Mirian", sueldo: 80 });
+personasVenezuela.push({ nombre: "Maria", sueldo: 40 });
+personasVenezuela.push({ nombre: "Andres", sueldo: 90 });
+personasVenezuela.push({ nombre: "Carolina", sueldo: 40 });
+personasVenezuela.push({ nombre: "Pedro", sueldo: 120 });
+personasVenezuela.push({ nombre: "Carlos", sueldo: 160 });
+personasVenezuela.push({ nombre: "Felix", sueldo: 80 });
+personasVenezuela.push({ nombre: "Carmen", sueldo: 50 });

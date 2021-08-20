@@ -22,3 +22,11 @@
 - 2: Implementar fórmulas en JS que hagan estos cálculos
 - 3: Crear funciones que simplifiquen la tarea
 - 4: Interactuar con JavaScript desde HTML
+
+## Taller #4: análisis salarial
+
+- 1: Establecer como se va a realizar los análisis salarial de distintos países
+- 2: Definir las fórmulas de como se calcula la diferencia salarial de distintos países
+- 3: Implementar estas fórmulas en JS que hagan estos cálculos
+- 4: Crear funciones que simplifiquen la tarea
+- 5: Interactuar con JavaScript desde HTML
