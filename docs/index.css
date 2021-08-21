@@ -39,6 +39,7 @@ body {
 
 .talleres > h2 > a:hover {
   text-decoration: underline;
+  color: yellow;
 }
 
 .talleres > a {
@@ -60,4 +61,23 @@ body {
   border-radius: 25px;
   text-decoration: underline;
   transform: scale(1.3);
+}
+
+.footer {
+  align-items: center; /*centramos verticalmente*/
+  display: flex;
+  margin-left: 20px;
+}
+.footer a {
+  color: yellow;
+  cursor: pointer; /*el cursor flecha cambia a mano*/
+  font-size: 16px;
+  font-family: "Asap Condensed", sans-serif;
+  font-weight: bold; /*negritas*/
+  padding-left: 30px;
+  text-decoration: none; /*le quitamos el subrayado*/
+}
+.footer a:hover {
+  text-decoration: underline; /*al hacer hover sale el subrayado*/
+  color: white;
 }

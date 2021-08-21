@@ -1,4 +1,4 @@
-# platzi-practicojs
+# curso-practico-javascript
 
 ...
 
