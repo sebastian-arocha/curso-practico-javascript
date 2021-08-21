@@ -1,5 +1,5 @@
 body {
-  background-image: url(https://static.vecteezy.com/system/resources/previews/002/326/623/non_2x/black-golden-royal-luxury-background-landing-page-free-vector.jpg);
+  background: url(https://wallpaperaccess.com/full/1836491.jpg);
   background-size: cover;
 }
 
@@ -21,19 +21,42 @@ body {
   flex-direction: column;
 }
 
-.talleres > a {
+.talleres > h2 {
+  margin-top: 5px;
+  margin-bottom: 25px;
   color: white;
   font-family: "Asap Condensed", sans-serif;
-  font-size: 18px;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.talleres > h2 > a {
+  color: white;
+  text-decoration: none;
+}
+
+.talleres > h2 > a:hover {
+  text-decoration: underline;
+}
+
+.talleres > a {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  color: white;
+  font-family: "Asap Condensed", sans-serif;
+  font-size: 24px;
   font-weight: bold;
   text-decoration: none;
   letter-spacing: 1px;
   padding: 15px;
+  margin: 20px;
 }
 
 .talleres > a:hover {
   color: yellow;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: black;
   border-radius: 25px;
   text-decoration: underline;
   transform: scale(1.3);
