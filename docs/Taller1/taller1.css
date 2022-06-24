@@ -107,11 +107,11 @@ main {
 
 .button {
   align-items: center;
-  background-color: #cee3ff; /*cambiamos el color de fondo*/
-  border: none; /*quitamos el borde*/
-  border-radius: 10px; /*redondeamos el borde*/
+  background-color: #cee3ff;
+  border: none;
+  border-radius: 10px; 
   color: #272727;
-  cursor: pointer; /*al pasar el cursor por el botón el puntero cambia a una mano*/
+  cursor: pointer;
   display: flex;
   font-size: 16px;
   font-weight: bold; /*añadimos negrita*/
